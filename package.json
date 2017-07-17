@@ -1,0 +1,28 @@
+{
+  "name": "gulp-run-promise",
+  "version": "0.0.1",
+  "description": "Run a gulp task programatically with oh-so-lovely promises",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harrisjose/gulp-run-promise.git"
+  },
+  "keywords": [
+    "gulp",
+    "promise",
+    "run",
+    "start",
+    "gulp-run",
+    "gulp-start",
+    "gulp-promise"
+  ],
+  "author": "Harris Jose",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/harrisjose/gulp-run-promise/issues"
+  },
+  "homepage": "https://github.com/harrisjose/gulp-run-promise#readme"
+}
