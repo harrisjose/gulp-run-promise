@@ -21,6 +21,3 @@ runTask('some-random-task').then(() => {
 
 ## Notes
 This works by listening to `err` and `stop` events emitted by [orchestrator](https://github.com/robrich/orchestrator) which is what gulp uses under the hood to run tasks. If you just want to run your gulp tasks sequentially or just control the order of execution you should ***not use this*** and check out the excellent [run-sequence](https://www.npmjs.com/package/run-sequence) instead.  
-
-
-[![Sponsor](https://app.codesponsor.io/embed/T5F1SFV1gZFb51jKqxPnDwsg/harrisjose/gulp-run-promise.svg)](https://app.codesponsor.io/link/T5F1SFV1gZFb51jKqxPnDwsg/harrisjose/gulp-run-promise)
