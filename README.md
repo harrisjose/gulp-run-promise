@@ -3,6 +3,21 @@
 # gulp-run-promise
 Run a gulp task programatically with oh-so-lovely promises 🍭
 
+## Update for Gulp v4.0.0+
+The recommended way to run tasks programatically in Gulp is to use the `series` method. 
+```js
+const { series } = require('gulp')
+const { myTask } = require('./tasks')
+
+const done = (error) => {
+  if(error) { // error }
+  // success
+}
+
+series(myTask)(done)
+```
+For more info about this, refer to [bach](https://github.com/gulpjs/bach) which is the module Gulp uses to run tasks.
+
 ## Why ?
 
 Cause `gulp.start` is undocumented and there is no easy alternative to start tasks and do something else after its done. Works with gulp 3 and will be updated when gulp 4 is released.
