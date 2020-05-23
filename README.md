@@ -1,7 +1,7 @@
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg?style=flat-square)](https://standardjs.com) [![npm](https://img.shields.io/npm/v/gulp-run-promise.svg?style=flat-square)](https://www.npmjs.com/package/gulp-run-promise)
 
 # gulp-run-promise
-Run a gulp task programatically with oh-so-lovely promises 🍭
+Run a gulp task programatically with promises 🍭
 
 ## Update for Gulp v4.0.0+
 The recommended way to run tasks programatically in Gulp is to use the `series` method. 
